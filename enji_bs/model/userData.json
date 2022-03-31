@@ -1,0 +1,14 @@
+{
+  "ea760969-b273-4816-ba03-4ace9c81265a":{
+      "id": "ea760969-b273-4816-ba03-4ace9c81265a",
+      "user_name": "user1",
+      "email_address": "user1@mail.com",
+      "password": "$2a$10$ZespNJLjE0qVj8v6ENNn9OCdW5b/02Y/KZRVjwwGZZuFOQjopqU6K"
+    },
+  "934f8c72-3717-44f5-bd87-7bf3b2a5caa9": {  
+      "id": "934f8c72-3717-44f5-bd87-7bf3b2a5caa9",
+      "user_name": "admin1",
+      "email_address": "admin1@mail.com",
+      "password": "$2a$10$ySHDsRMwXkhyqxIveDqFE.xcJ20aXhfA9nClBPCCPi.FnCg8o8MaW"
+    }
+}
