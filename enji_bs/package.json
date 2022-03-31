@@ -1,0 +1,48 @@
+{
+  "name": "enji_bs",
+  "version": "1.0.0",
+  "description": "ENJI login coding challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "start-dev": "SET API_ENV=dev && nodemon server",
+    "start-sit": "SET API_ENV=sit && nodemon server",
+    "start-prod": "SET API_ENV=prod && node server",
+    "server": "nodemon server.js",
+    "build": "webpack",
+    "prod": "node build/api.bundle.js",
+    "eslint": "eslint ./",
+    "eslint-fix": "eslint ./ --fix"
+  },
+  "keywords": [
+    "enji_bs"
+  ],
+  "author": "Nicson",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "fs": "0.0.1-security",
+    "helmet": "^4.1.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^5.0.1",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
